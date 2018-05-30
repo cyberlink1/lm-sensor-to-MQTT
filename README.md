@@ -1,5 +1,5 @@
 # lm-sensor-to-MQTT
-A script to read the hardware sensors output on a Linux machine create MQTT entries for them
+A script to read the hardware sensors output on a Linux machine and create MQTT entries for them
 
 This script uses the command line tool sensors which is part of the lm-sensors package on Linux. It collects all sensor data and posts it to an MQTT server as <hostname>/<Adapter>/<Sensor>
   
